@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Bll\Business.Bll.csproj" />
+    <ProjectReference Include="..\Business.Dal\Business.Dal.csproj" />
+    <ProjectReference Include="..\Business.Entity\Business.Entity.csproj" />
+    <ProjectReference Include="..\Business.Interface\Business.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

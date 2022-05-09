@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Dal\Business.Dal.csproj" />
+    <ProjectReference Include="..\Business.Entity\Business.Entity.csproj" />
+    <ProjectReference Include="..\Business.Interface\Business.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
