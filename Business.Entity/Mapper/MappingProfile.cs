@@ -20,6 +20,8 @@ namespace Business.Entity.Mapper
             CreateMap<DtoJob, Request>().ReverseMap();
             CreateMap<Request, DtoRequest>().ReverseMap();
             CreateMap<DtoRequestCreate, Request>().ReverseMap();
+            CreateMap<User, DtoLoginUser>();
+            CreateMap<DtoLogin, User>();
         }
     }
 }

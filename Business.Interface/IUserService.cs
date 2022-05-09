@@ -1,4 +1,5 @@
 ﻿using Business.Entity.Dto;
+using Business.Entity.IBase;
 using Business.Entity.Models;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,6 @@ namespace Business.Interface
 {
     public interface IUserService:IGenericService<User,DtoUser>
     {
+        IResponse<DtoUserToken> Login(DtoLogin login);
     }
 }
