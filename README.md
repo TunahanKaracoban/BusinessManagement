@@ -1,15 +1,15 @@
-###İş Yönetim Sistemi
+## İş Yönetim Sistemi
 Amaç
 -	Bir işyerindeki iş takiplerinin yapılabilmesi için geliştirilecek uygulamadır
 -	Program, küçük veya orta ölçekli işyerlerine hitap edecektir
 -	İlgili kişiler tarafından işlerin açılması ve işi alan veya iş atanan kişinin işi çözmesi beklenmektedir.
 
-
-##Personel Giriş
+## Personel Giriş
 •	Sisteme giriş oturum açılarak yapılmalıdır.
 •	E-mail ve parola ile giriş yapılmalıdır.
 •	Giriş yapıldıktan sonra sistem geçerliliği 1 gün olacak şekilde bir token üretilmelidir
--	Personel Kayıt
+
+## Personel Kayıt
 •	Personel Adı(Zorunlu)
 •	Personel Soyadı(Zorunlu)
 •	E-Mail(Zorunlu)
@@ -18,7 +18,8 @@ Amaç
 •	Yetki(Personel, Yönetici, Admin)(Zorunlu)
 Sadece Yönetici ve Admin yetkisine sahip kullanıcılar personeli kayıt edebilmelidir.
 Personel kayıt olduktan sonra ilgili kişiye 6 haneli random bir parola üretilerek ilgili kişinin mailine gönderilmelidir. Veri tabanında parolaya karşılık gelen şifre tutulmalıdır.(istediğiniz şifreleleme algoritmasını seçebilirsiniz. MD5, SHA1, vb…)
--	Personel Parola Değiştirme
+
+## Personel Parola Değiştirme
 •	Personel parolasını değiştirebilmelidir.
 •	Parola değiştirme esnasında eski parola kontrolü de yapılmadır.
 
@@ -40,7 +41,7 @@ Bilgileri girilerek talep oluşturma yapılmalıdır.
 -	İşin açılma tarihi
 -	Talep eden kişi bilgileri listelenmelidir
 
-##İş Atama
+## İş Atama
 •	Kişi kendi departmanına gönderilen iş listesinden kendine iş seçebilecektir. Kendi üzerine iş alma. Bir iş alındıktan sonra başka kişiye atanması engellenecektir.
 
 ##	İş Üzerinden Yazışma
