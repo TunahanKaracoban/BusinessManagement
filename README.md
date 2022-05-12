@@ -48,6 +48,6 @@ Bilgileri girilerek talep oluşturma yapılmalıdır.
 •	İşi açan ve alan kişi iş üzerinden yazışma yapabilecek.
 
 ##	İşin Detayının Görüntülenmesi
-•	İş Bilgileri.
-•	İşi alan kişi bilgileri.
-•	İş üzerinde yazışmalar görüntülenebilecek.
+-	İş Bilgileri.
+-	İşi alan kişi bilgileri.
+-	İş üzerinde yazışmalar görüntülenebilecek.
