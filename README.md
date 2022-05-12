@@ -23,7 +23,7 @@ Personel kayıt olduktan sonra ilgili kişiye 6 haneli random bir parola üretil
 •	Personel parolasını değiştirebilmelidir.
 •	Parola değiştirme esnasında eski parola kontrolü de yapılmadır.
 
-##Yeni Talep Oluşturma
+## Yeni Talep Oluşturma
 
 •	Talep başlığı girilmeli
 •	Departman seçilmeli(işin gideceği departman)
@@ -48,6 +48,6 @@ Bilgileri girilerek talep oluşturma yapılmalıdır.
 •	İşi açan ve alan kişi iş üzerinden yazışma yapabilecek.
 
 ##	İşin Detayının Görüntülenmesi
-•	İş Bilgileri
-•	İşi alan kişi bilgileri
-•	İş üzerinde yazışmalar görüntülenebilecek
+•	İş Bilgileri.
+•	İşi alan kişi bilgileri.
+•	İş üzerinde yazışmalar görüntülenebilecek.
